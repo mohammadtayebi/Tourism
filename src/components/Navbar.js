@@ -59,19 +59,19 @@ const Navbar = () => {
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link to="/" className="dropdown-item" href="#">
-                Action
+                درباره شهر
               </Link>
               <Link to="/" className="dropdown-item" href="#">
-                Another action
+                رستوران ها
               </Link>
               <div className="dropdown-divider"></div>
               <Link to="/" className="dropdown-item" href="#">
-                Something else here
+                هتل ها
               </Link>
             </div>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link">
+            <Link to="/contact_us" className="nav-link">
               تماس با ما
             </Link>
           </li>

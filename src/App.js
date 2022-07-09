@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import TourismSites from "./pages/TourismSites";
 import Footer from "./components/Footer";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/tourism_sites" element={<TourismSites />}></Route>
         {/* <Route exact path="/coin/:coin" children={<Coin />} /> */}
+        <Route path="/contact_us" element={<ContactUs />}></Route>
       </Routes>
       <Footer />
     </Router>
