@@ -5,7 +5,7 @@ import pic from "../utils/دماوند.jpg";
 const About = () => {
   return (
     <Wrapper>
-      <h2 className="my-5 text-center">درباره شهر</h2>
+      <h2 className="mb-5 text-center pt-4">درباره شهر</h2>
       <div>
         <div className="text-center">
           <h4 className="mb-3 title_2">شهرستان دماوند و ویژگی‌های آن</h4>
@@ -50,6 +50,11 @@ const Wrapper = styled.div`
     letter-spacing: 1px;
     line-height: 27px;
     font-size: 1.2rem;
+  }
+  @media only screen and (max-width: 759px) {
+    img {
+      width: 100%;
+    }
   }
 `;
 export default About;

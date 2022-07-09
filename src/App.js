@@ -7,6 +7,7 @@ import TourismSites from "./pages/TourismSites";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/ContactUs";
 import About from "./pages/About";
+import Residency from "./pages/Residency";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         {/* <Route exact path="/coin/:coin" children={<Coin />} /> */}
         <Route path="/contact_us" element={<ContactUs />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/residency" element={<Residency />}></Route>
       </Routes>
       <Footer />
     </Router>

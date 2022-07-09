@@ -18,7 +18,7 @@ const ThirdLook = () => {
         <h1 className="title_">تعدادی از مکان های دیدنی دماوند</h1>
       </div>
       <div className="row mx-0">
-        <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
+        <div className="col-lg-4 col-md-6 col-sm-12  text-center containers ">
           <div className="cards">
             <img src={pic_1} alt="picture1" />
             <p className="titles ">غار رودافشان</p>
@@ -27,33 +27,33 @@ const ThirdLook = () => {
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
           <div className="cards">
             <img src={pic_2} alt="picture1" />
-            <p className="titles ">غار رودافشان</p>
+            <p className="titles ">برج شیخ شبلی</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
           <div className="cards">
             <img src={pic_3} alt="picture1" />
-            <p className="titles ">غار رودافشان</p>
+            <p className="titles ">دژ گل خندان</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
           <div className="cards">
             <img src={pic_4} alt="picture1" />
-            <p className="titles ">غار رودافشان</p>
+            <p className="titles ">امامزاده عبدالله و عبيدالله</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
           {" "}
           <div className="cards">
             <img src={pic_5} alt="picture1" />
-            <p className="titles ">غار رودافشان</p>
+            <p className="titles ">دریاچه های تار و هویر</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
           {" "}
           <div className="cards">
             <img src={pic_6} alt="picture1" />
-            <p className="titles ">غار رودافشان</p>
+            <p className="titles ">آبشار تیزاب</p>
           </div>
         </div>
       </div>

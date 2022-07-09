@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Navbar = () => {
   return (
-    <Wrapper className="navbar navbar-expand-lg navbar-black bg-white flex-row-reverse py-4">
+    <Wrapper className="navbar navbar-expand-lg navbar-light bg-white flex-row-reverse py-4">
       <Link
         to="/"
         className="navbar-brand"
@@ -14,7 +14,7 @@ const Navbar = () => {
         Damavand
       </Link>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler text-dark"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -30,7 +30,7 @@ const Navbar = () => {
         id="navbarSupportedContent"
       >
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <Link to="/" className="nav-link" href="#">
               خانه <span className="sr-only">(current)</span>
             </Link>
@@ -41,8 +41,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link" href="#">
-              گالری
+            <Link to="/residency" className="nav-link" href="#">
+              اقامت گاه ها
             </Link>
           </li>
           <li className="nav-item">

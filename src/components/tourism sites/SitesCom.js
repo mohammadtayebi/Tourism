@@ -34,9 +34,6 @@ const SitesCom = () => {
               نزدیکی پایتخت است که مدت زیادی از کشف آن نمی‌گذرد. این غار از
               برجسته‌ترین جاهای دیدنی تهران در شهرستان دماوند به شمار می‌رود
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -48,9 +45,6 @@ const SitesCom = () => {
               نمونه‌های بارز معماری و اوج هنر در ایران بعد از اسلام به حساب
               می‌آید.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -62,9 +56,6 @@ const SitesCom = () => {
               تهران است که در روستای گل خندان در بالای تپه‌ای عظیم و مشرف به محل
               تلاقی دو رودخانه بومهن و رودهن واقع است.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -75,9 +66,6 @@ const SitesCom = () => {
               بقعه امامزاده عبدالله و عبیدالله که از جاهای دیدنی دماوند به حساب
               می‌آید، در ضلع شمالی شهر دماوند و در محله درویش قرار دارد
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -90,9 +78,6 @@ const SitesCom = () => {
               جاهای دیدنی دماوند به حساب می‌آیند که در روستایی به نام هویر در ۳۰
               کیلومتری این شهر واقع‌ شده‌اند. این دو دریاچه‌ در فاصله ۵۰۰
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -105,9 +90,6 @@ const SitesCom = () => {
               دشتمزار قرار گرفته است و یکی از جاذبه‌ های گردشگری دماوند در استان
               تهران است
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -120,9 +102,6 @@ const SitesCom = () => {
               هفتاد کیلومتری شمال شرقی تهران واقع شده است. درباره چشمه‌های آبی
               مناطق مختلف گمانه زنی‌های فراوانی وجود دارد
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -135,9 +114,6 @@ const SitesCom = () => {
               روح افزا در دره گروبار قرار دارد. وجود درختان بید و رودخانه‌ای
               پرآب، آب و هوای مطبوع و دلپذیری را به این منطقه زیبا داده
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -150,9 +126,6 @@ const SitesCom = () => {
               جاهای دیدنی دماوند است که امکانات قابل‌قبولی برای بازدیدکنندگان
               دارد.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -165,9 +138,6 @@ const SitesCom = () => {
               های دماوند در محله درویش است. این اثر در تاریخ ۹ اردیبهشت ۱۳۸۲ به‌
               عنوان یکی از آثار ملی ایران به ثبت رسید.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -180,9 +150,6 @@ const SitesCom = () => {
               دست دریاچه‌ تار سرچشمه می‌گیرد و دیگری به نام رودخانه رودبار (چشمه
               اعلا) تشکیل شده است.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -195,9 +162,6 @@ const SitesCom = () => {
               در دره گروبار قرار گرفته است و از جمله آبشارها و دیدنی های دماوند
               به شمار می‌آید.
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -210,9 +174,6 @@ const SitesCom = () => {
               جاهای دیدنی دماوند در محله روح‌افزا، در دره گروبار به شمار می‌آید.
               ارتفاع آبشار در حدود ۲۰ متر و در ارتفاع ۲۲۳۰ متری از سطح دریا است
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -226,9 +187,6 @@ const SitesCom = () => {
               کیلومتری شرق ملک چشمه لار، در دره زیبای کوه‌های لار صادق به نام
               برف تنگه
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>{" "}
         <div className="col-lg-4 col-md-6 col-sm-12  text-center containers">
@@ -242,9 +200,6 @@ const SitesCom = () => {
               می‌جوشد. آبگیر بر روی تپه‌ای آهکی به ارتفاع ۱۰ متر از کف رودخانه
               مجاور آن قرار گرفته است
             </p>
-            <div className="text-lefts mb-3">
-              <button className="btn btn-primary mr-auto">اطلاعات بیشتر</button>
-            </div>
           </div>
         </div>
       </div>
