@@ -4,8 +4,13 @@ import styled from "styled-components";
 
 const Navbar = () => {
   return (
-    <Wrapper className="navbar navbar-expand-lg navbar-light bg-white flex-row-reverse">
-      <Link to="/" className="navbar-brand" href="#">
+    <Wrapper className="navbar navbar-expand-lg navbar-black bg-white flex-row-reverse py-4">
+      <Link
+        to="/"
+        className="navbar-brand"
+        href="#"
+        style={{ color: "#ff7f47" }}
+      >
         Damavand
       </Link>
       <button

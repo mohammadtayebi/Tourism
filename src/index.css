@@ -4,15 +4,28 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     direction: rtl;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: "Vazir", "ubunto", "IRAN Sans Regular", sans-serif !important;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url('./fonts/vazir/Vazir-Regular.eot');
+    src: url('./fonts/vazir/Vazir-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/vazir/Vazir-Regular.woff2') format('woff2'), url('./fonts/vazir/Vazir-Regular.woff') format('woff'), url('./fonts/vazir/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.title_ {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #304f47;
 }
 
 
