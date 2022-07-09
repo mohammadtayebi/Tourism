@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/" className="nav-link" href="#">
-              اسکان
+              گالری
             </Link>
           </li>
           <li className="nav-item dropdown">

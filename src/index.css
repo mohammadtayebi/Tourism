@@ -28,6 +28,22 @@ a {
     color: #304f47;
 }
 
+.title_2 {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff7f47;
+}
+
+.title_3 {
+    margin: 15px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff7f47;
+}
+
 
 /* a:hover {
     text-decoration: none;
