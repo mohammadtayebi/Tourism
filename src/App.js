@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import TourismSites from "./pages/TourismSites";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/tourism_sites" element={<TourismSites />}></Route>
+        {/* <Route exact path="/coin/:coin" children={<Coin />} /> */}
       </Routes>
       <Footer />
     </Router>

@@ -9,7 +9,7 @@ const Navbar = () => {
         to="/"
         className="navbar-brand"
         href="#"
-        style={{ color: "#ff7f47" }}
+        style={{ color: "#ff7f47", fontSize: "2rem", fontStyle: " oblique" }}
       >
         Damavand
       </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link" href="#">
+            <Link to="/tourism_sites" className="nav-link" href="#">
               مناطق دیدنی
             </Link>
           </li>
@@ -86,6 +86,7 @@ const Wrapper = styled.nav`
   }
   a {
     transition: all 0.3s ease-in-out !important;
+    font-size: 20px;
   }
   a:hover {
     text-decoration: none;

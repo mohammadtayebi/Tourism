@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import pic_1 from "../../utils/tourist sites/1.webp";
 import pic_2 from "../../utils/tourist sites/2.webp";
@@ -55,6 +56,11 @@ const ThirdLook = () => {
             <p className="titles ">غار رودافشان</p>
           </div>
         </div>
+      </div>
+      <div className="text-center mb-3">
+        <Link to="/tourism_sites" className="btn btn-success text-center ">
+          مناطق دیدنی بیشتر
+        </Link>
       </div>
     </Wrapper>
   );

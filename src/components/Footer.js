@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="/">خانه</Link>
             <Link to="/">درباره ما</Link>
             <Link to="/"> تماس با ما</Link>
-            <Link to="/">مناطق دیدنی</Link>
+            <Link to="/tourism_sites">مناطق دیدنی</Link>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
