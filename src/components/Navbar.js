@@ -45,30 +45,10 @@ const Navbar = () => {
               گالری
             </Link>
           </li>
-          <li className="nav-item dropdown">
-            <Link
-              to="/"
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-expanded="false"
-            >
-              درباره ما
+          <li className="nav-item">
+            <Link to="/about" className="nav-link">
+              درباره شهر
             </Link>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link to="/" className="dropdown-item" href="#">
-                درباره شهر
-              </Link>
-              <Link to="/" className="dropdown-item" href="#">
-                رستوران ها
-              </Link>
-              <div className="dropdown-divider"></div>
-              <Link to="/" className="dropdown-item" href="#">
-                هتل ها
-              </Link>
-            </div>
           </li>
           <li className="nav-item">
             <Link to="/contact_us" className="nav-link">

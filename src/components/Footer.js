@@ -11,7 +11,7 @@ const Footer = () => {
           {/* <div className="line"></div> */}
           <div className="d-flex justify-content-center align-items-center flex-column">
             <Link to="/">خانه</Link>
-            <Link to="/">درباره ما</Link>
+            <Link to="/about">درباره ما</Link>
             <Link to="/contact_us"> تماس با ما</Link>
             <Link to="/tourism_sites">مناطق دیدنی</Link>
           </div>
