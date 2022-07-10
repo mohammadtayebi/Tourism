@@ -109,6 +109,7 @@ const Residency = () => {
   );
 };
 const Wrapper = styled.div`
+  background: #fcfcfc;
   img {
     width: 20rem;
     margin-right: 13px;

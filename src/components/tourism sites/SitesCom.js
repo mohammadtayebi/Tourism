@@ -233,5 +233,10 @@ const Wrapper = styled.main`
     padding: 10px;
     line-height: 28px;
   }
+  @media only screen and (max-width: 475px) {
+    .containers {
+      padding: 0.5rem;
+    }
+  }
 `;
 export default SitesCom;

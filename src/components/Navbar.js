@@ -30,27 +30,27 @@ const Navbar = () => {
         id="navbarSupportedContent"
       >
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
+          <li className="nav-item mx-2">
             <Link to="/" className="nav-link" href="#">
               خانه <span className="sr-only">(current)</span>
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-2">
             <Link to="/tourism_sites" className="nav-link" href="#">
               مناطق دیدنی
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-2">
             <Link to="/residency" className="nav-link" href="#">
               اقامت گاه ها
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-2">
             <Link to="/about" className="nav-link">
               درباره شهر
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-2">
             <Link to="/contact_us" className="nav-link">
               تماس با ما
             </Link>

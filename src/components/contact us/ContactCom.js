@@ -4,20 +4,10 @@ import pic from "../../utils/d-4.jpg";
 const ContactCom = () => {
   return (
     <Wrapper className="row m-0 p-0">
-      {/* right  */}
-      {/* <img src={pic} alt="picture of the city" /> */}
-      {/* left  */}
-      {/* <div className="col-lg-6 col-sm-12">
-        <h2 className=" text-right">تماس با ما</h2>
-        
-      </div> */}
       <div className="containers d-flex justify-content-center flex-column align-items-center w-100">
         <h2 className="my-5 text-center">تماس با ما</h2>
-        <div className="row mb-5">
-          <div className="col-lg-6 pl-5">
-            <img src={pic} alt="picture of the city" />
-          </div>
-          <div className="col-lg-6 text-right">
+        <div className="rosw mb-5">
+          <div className="col-lg-s6 text-right">
             <form action="#" method="post">
               <div className="p-3 p-lg-5 border">
                 <div className="form-group row text-right">
@@ -59,7 +49,7 @@ const ContactCom = () => {
 
                 <div className="form-group col-md-12">
                   <label htmlFor="email" className="text-dark">
-                    ایمیل <span className="text-danger">*</span>
+                    متن <span className="text-danger">*</span>
                   </label>
                   <textarea className="form-control" cols="30" rows="7" />
                 </div>
