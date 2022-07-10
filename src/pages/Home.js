@@ -1,4 +1,5 @@
 import React from "react";
+import FourthLook from "../components/home/FourthLook";
 import HomeLook from "../components/home/HomeLook";
 import SecondLook from "../components/home/SecondLook";
 import ThirdLook from "../components/home/ThirdLook";
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeLook />
       <SecondLook />
       <ThirdLook />
+      <FourthLook />
     </div>
   );
 };

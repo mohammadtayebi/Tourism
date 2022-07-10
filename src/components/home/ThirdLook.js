@@ -12,7 +12,7 @@ import pic_8 from "../../utils/tourist sites/8.jpg";
 
 const ThirdLook = () => {
   return (
-    <Wrapper style={{ background: "#fcfcfc", paddingTop: "1rem" }}>
+    <Wrapper style={{ background: "#fcfcfc", padding: "1rem 0" }}>
       <div className="text-center mt-5">
         <h4 className="title_2 mt-5">مکان های توریستی محبوب</h4>
         <h1 className="title_">تعدادی از مکان های دیدنی دماوند</h1>
@@ -58,7 +58,10 @@ const ThirdLook = () => {
         </div>
       </div>
       <div className="text-center mb-3">
-        <Link to="/tourism_sites" className="btn btn-success text-center ">
+        <Link
+          to="/tourism_sites"
+          className="btn btn-success text-center btn_link"
+        >
           مناطق دیدنی بیشتر
         </Link>
       </div>
@@ -84,6 +87,15 @@ const Wrapper = styled.div`
     font-weight: 700;
     font-size: 20px;
     color: #ff7f47;
+  }
+  .btn_link {
+    width: 13rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
   }
 `;
 export default ThirdLook;
